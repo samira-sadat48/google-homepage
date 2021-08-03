@@ -49,7 +49,7 @@ li a {
     display: block;
     color: rgb(73, 72, 72);
     text-align: center;
-    padding: 15px;
+    padding: 15px 20px;
     text-decoration: none;
     margin: 0 !important;
   }
@@ -69,5 +69,10 @@ li.right {
 
 .google-home-img {
     padding: 20px;
+}
+
+.sign-in-button {
+    background-color:rgb(41, 116, 228);
+    color:white;
 }
 
