@@ -3,24 +3,30 @@
     padding-top: 250px;
 }
 
-ul.top-navbar-items {
+footer {
+    padding-top: 30em;
+}
+
+ul.top-navbar {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0;
     background-color: white;
   }
 
-li.left {
-    float:left;
-}
+ul.bottom-navbar {
+    list-style-type: none; /* Remove bullets */
+    padding-left:0;
+    margin: 0;
+  }
 
-li.right {
-    float:right;
+.bottom-navbar-items {
+    background-color: rgb(85, 83, 83);/*The background-color isn't changing*/
 }
 
 li a {
     display: block;
-    color: rgb(95, 95, 95);
+    color: rgb(73, 72, 72);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,4 +36,14 @@ li button {
       display:block;
       text-align: center;
   }
+  
+li.left {
+    float:left;
+}
+
+li.right {
+    float:right;
+}
+
+
 
