@@ -40,11 +40,26 @@ ul.top-navbar {
 
 .search-box-div {
     padding: 20px;
+    display: flex;
 }
 
 .search-buttons-div {
     display: flex;
     flex-direction: row; 
+}
+
+input[type=text] {
+        background: #fff;
+        display: flex;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        border-radius: 24px;
+        z-index: 3;
+        height: 44px;
+        margin: 0 auto;
+        width: auto;
+        max-width: 584px;
+        flex: 100%;
 }
 
 .search-buttons {
